@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Source Sans 3", serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Source Sans 3", serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* Global Css Start */
+.title{
+    width: 100%;
+}
+.title h5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008ed6;
+}
+.title h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #1a1a1a;
+    margin: 10px 0px 20px;
+}
+/* Global Css End */
+/* Custom Css Start */
+.header{
+    width: 100%;
+    background: url("../img/banner.png") center no-repeat;
+    background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0px 0px 0px 20px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    background: url("../img/line.png") center bottom no-repeat;
+    background-size: auto;
+}
+.header .navbar-nav .nav-link.active{
+    background: url("../img/line.png") center bottom no-repeat;
+    background-size: auto;
+}
+.banner{
+    width: 100%;
+    padding: 100px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 100px 0px;
+}
+.inner-banner h5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008ed6;
+}
+.inner-banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #fff;
+    margin: 20px 0px;
+}
+.inner-banner p{
+    width: 78%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #808081;
+}
+.double-btn{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+.double-btn .btn-info{
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.5s ease-in;
+}
+.double-btn .btn-info:hover, .double-btn .btn-info:focus{
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+.double-btn .btn-primary{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #808081;
+    transition: 0.5s ease-in;
+}
+.double-btn .btn-primary:hover, .double-btn .btn-primary:focus{
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+.feature{
+    width: 100%;
+    padding: 100px 0px;
+}
+.feature .title{
+    text-align: center;
+    padding: 0px 0px 100px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.inner-feature .icons{
+    width: 80px;
+    height: 80px;
+    line-height: 90px;
+    margin: 0px auto 20px;
+    border-radius: 100%;
+    border: 1px solid #808081;
+}
+.inner-feature .icons .fa{
+    color: #008ed6;    
+    font-size: 24px;
+}
+.inner-feature h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #1a1a1a;
+}
+.inner-feature p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #808081;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    border-top: 1px solid #808081;
+}
+.inner-about{
+    width: 100%;
+}
+.inner-about .title{
+    margin: 50px 0px 20px;
+}
+.inner-about p{
+    width: 78%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #808081;
+    margin: 10px 0px 0px;
+}
+.inner-about ul{
+    padding: 20px 0px 0px;
+}
+.inner-about ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7em;
+    margin: 0px 0px 8px;
+    color: #1a1a1a;
+}
+.inner-about ul li .icon{
+    font-size: 16px;
+    color: #008ed6;
+    margin: 0px 10px 0px 0px;
+}
+/* Custom Css End */
