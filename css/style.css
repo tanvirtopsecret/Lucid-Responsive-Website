@@ -99,7 +99,7 @@ a, a:hover{
     color: #fff;
     background: #008ed6;
     border: 1px solid #008ed6;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in-out;
 }
 .double-btn .btn-info:hover, .double-btn .btn-info:focus{
     color: #008ed6;
@@ -118,7 +118,7 @@ a, a:hover{
     color: #fff;
     background: transparent;
     border: 1px solid #808081;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in-out;
 }
 .double-btn .btn-primary:hover, .double-btn .btn-primary:focus{
     color: #fff;
@@ -196,5 +196,327 @@ a, a:hover{
     font-size: 16px;
     color: #008ed6;
     margin: 0px 10px 0px 0px;
+}
+.about-left{
+    width: 100%;
+    padding: 100px 0px;
+    background: #f2f2f2;
+}
+.about-left-inner{
+    width: 100%;
+    margin: 100px 0px 0px;
+}
+.about-left-inner .title{
+    text-align: left;
+    padding: 0px 0px 20px;
+}
+.about-left-inner .title h1{
+    font-size: 42px;
+}
+.about-left-inner p{
+    width: 90%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #808081;
+}
+.testimonials{
+    width: 100%;
+    padding: 100px 0px;
+    background: url("../img/banner2.png") center top no-repeat;
+    background-size: cover;
+}
+.testimonials .title{
+    text-align: center;
+    padding: 0px 0px 100px;
+}
+.testimonials .title h1{
+    color: #fff;
+}
+.testimonials .owl-carousel{
+    width: 100%;
+}
+.testimonials .owl-carousel .item h4{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-style: italic;
+    color: #fff;
+    margin: 0px 0px 35px;
+}
+.testimonials .owl-carousel .item img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+.testimonials .owl-carousel .item h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #fff;
+    margin: 15px 0px 0px;
+}
+.testimonials .owl-carousel .item p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.testimonials .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 40px;
+}
+.testimonials .owl-theme .owl-dots .owl-dot span{
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 1px solid #777;
+}
+.testimonials .owl-theme .owl-dots .owl-dot.active span, .testimonials .owl-theme .owl-dots .owl-dot:hover span{
+    width: 10px;
+    height: 10px;
+    background: #fff !important;
+    margin: 0px 7px 4px;
+}
+.call-to-action{
+    width: 100%;
+    padding: 100px 0px;
+    background: #15141a;
+}
+.call-to-action h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #fff;
+}
+.call-to-action h1 span{
+    font-weight: 300;
+}
+.call-to-action .double-btn{
+    width: 100%;
+    padding: 0px;
+}
+.call-to-action .double-btn .btn-primary{
+    margin: 0px 30px 0px 0px;
+}
+.price{
+    width: 100%;
+    padding: 100px 0px;
+}
+.price .title{
+    text-align: center;
+    padding: 0px 0px 100px;
+}
+.price-box{
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    margin: 10px 0px;
+}
+.price-box .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.price-box .price-head h3{
+    font-size: 26px;
+    line-height: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    margin: 0px 0px 0px;
+    transition: 0.5s ease-in-out;
+}
+.price-box:hover .price-head h3{
+    color: #008ed6;
+}
+.price-box .main-price{
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: 0.5s ease-in-out;
+}
+.price-box:hover .main-price{
+    background: #008ed6;
+}
+.price-box .main-price h1{
+    font-size: 70px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0px 0px 0px;
+    transition: 0.5s ease-in-out;
+}
+.price-box:hover .main-price h1, .price-box:hover .main-price p{
+    color: #fff;
+}
+.price-box .main-price h1 sup{
+    font-size: 26px;
+    top: -25px;
+}
+.price-box .main-price p{
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #808081;
+    margin: -10px 0px 0px;
+    transition: 0.5s ease-in-out;
+}
+.price-box .price-content{
+    width: 100%;
+    padding: 40px 40px 20px;
+}
+.price-box .price-content p{
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #808081;
+    margin: 0px 10px 30px;
+}
+.price-box .price-content p .blank-link{
+    text-decoration: none;
+    color: #008ed6;
+}
+.price-box .price-content .btn-primary{
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    transition: 0.5s ease-in-out;
+}
+.price-box:hover .price-content .btn-primary{
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+.contact{
+    width: 100%;
+    padding: 100px 0px 0px;
+    background: #ededed;
+}
+.contact .title{
+    text-align: center;
+    padding: 0px 0px 100px;
+}
+.contact .info{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+.contact .info .fa{
+    font-size: 32px;
+    color: #008ed6;
+}
+.contact .info p{
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #808081;
+    margin: 25px 0px 0px;
+}
+.contact .contact-form{
+    width: 100%;
+    padding: 65px 40px 40px;
+    margin: 65px 0 -65px;
+    background: #000;
+    position: relative;
+    z-index: 1;
+}
+.contact .contact-form .form-control{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #444348;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    font-weight: 400;
+}
+.contact .contact-form .form-control:hover, .contact .contact-form .form-control:focus{
+    border: 1px solid #008ed6;
+}
+.contact .contact-form textarea{
+    min-height: 155px;
+}
+.contact .contact-form input::placeholder{
+    color: #444348;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact .contact-form textarea::placeholder{
+    color: #444348;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact .contact-form .btn-primary{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.5s ease-in-out;
+}
+.contact .contact-form .btn-primary:hover, .contact .contact-form .btn-primary:focus{
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+.map{
+    width: 100%;
+    z-index: 0;
+}
+.footer-area{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #15141a;
+}
+.footer {
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.footer-area .footer .social-icons {
+    padding: 0;
+}
+.footer-area .footer .social-icons{
+    list-style: none;
+}
+.footer-area .footer .social-icons li{
+    display: inline-block;
+    margin: 0 18px 0;
+    transition: 1s;
+}
+.footer-area .footer .social-icons li a{
+    display: block;
+    color: #444348;
+    font-size: 16px;
+}
+.footer-area .footer .social-icons li a:hover{
+    color: #008ed6;
+    transition: 1s;
+}
+.footer-area .footer p{
+    text-transform: uppercase;
+    color: #444348;
+    margin: 0;
+}
+.footer-area .footer p span{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 /* Custom Css End */
